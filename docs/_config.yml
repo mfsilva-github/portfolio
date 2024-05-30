@@ -1,8 +1,10 @@
 title: Architect theme
 description: Architect is a theme for GitHub Pages.
-show_downloads: true
+#show_downloads: true
 #google_analytics:
 #theme: jekyll-theme-architect
-remote_theme: pages-themes/architect #pages-themes/architect@v0.2.0
+baseurl:
+
+remote_theme: pages-themes/architect
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
